@@ -21,6 +21,6 @@ print ("outside while loop")
 while True:
     print ("Enter a number")
     response = input() # take user input
-    if int(response) %7 == 0:   # take user input
+    if int(response) % 7 == 0:   # take user input
         break                   # number dividible by 7
                                 # exit loop
