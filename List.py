@@ -25,8 +25,10 @@ names = []
 total = 0
 while total < 3:
     name = input ("Enter a name")
-   names.append(name)
-   total = total+1
+    names.append(name)
+    total = total+1
+# display list
+print(names)
 
  # wayne's attempt - didn't wok   response = input()  # take user input
 # if input % 0 == 0:  # take user input
