@@ -40,7 +40,7 @@ def main():
     file = "http://icarus.cs.weber.edu/~hvalle/hafb/words.txt"
     words = fetch_words(file)
     print (words)
-
+    
 
 if __name__ == '__main__':
     main()
