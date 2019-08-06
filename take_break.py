@@ -1,5 +1,7 @@
 """
 set an alarm to take a break by playing a youtube video
+Wayne's follow-up: This worked great.  60 minutes after launching the program,
+ a youtube video automatically lunched.
 """
 import webbrowser
 import time

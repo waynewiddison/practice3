@@ -16,7 +16,7 @@ def rename_files():
     """
     folder_dir = r"C:\Users\CCEClass1.AD.000.001.002.003.004.005.006.007\Desktop\hafb\prank\prankOrig"
     files = os.listdir(folder_dir)
-    saved_path = os.getcwd()  # save current directory then go to files's directory
+    saved_path = os.getcwd()  # save current directory, next we'll go to files's directory
     os.chdir(folder_dir)
     for file in files:
         # Remove digits from name
