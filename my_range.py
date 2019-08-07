@@ -46,11 +46,6 @@ def main():
     # A better way
     for i, v in enumerate(t):
         print("i = {}, v = {}".format(i, v))
-        
-
-
-
-
 
 
 if __name__ == '__main__':
