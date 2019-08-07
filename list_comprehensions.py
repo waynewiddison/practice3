@@ -43,30 +43,30 @@ def main():
 
     # another example...
     # task: sum? length of first 20 factorial numbers
+
+    # Wayne's recommendation: create a list of the individual results then count all the digits in the list
+    # instructor: catch the values in an array or actually and empty list
+    info = []  # empty list
     for x in range(20):
-        # Wayne's recommendation: create a list of the individual results then count all the digits in the list
-        # instructor: catch the values in an array or actually and empty list
-        info = [] # empty list
-        for x in range(20):
-            # print(factorial(x))
-            info.append(len(str(factorial(x))))
-        print(info, type(info))
-        # Use a list comprehension: []
-        info2 = [len(str(factorial(x))) for x in range(20)]
-        print(info2, type(info2))
+        # print(factorial(x))
+        info.append(len(str(factorial(x))))
+    print(info, type(info))
+    # Use a list comprehension: []
+    info2 = [len(str(factorial(x))) for x in range(20)]
+    print(info2, type(info2))
 
-        # Set comprehensions: ()
-        info3 = (len(str(factorial(x))) for x in range(20))
-        print(info3, type(info3))
+    # Set comprehensions: ()
+    info3 = (len(str(factorial(x))) for x in range(20))
+    print(info3, type(info3))
 
-        # Dictionary Comprehensions
-        nba_teams = {'jazz':'SLC', 'warriors':'OAKLAND', 'clippers':'LA'}
-        print(nba_teams)
-        teams_nba = {city:mascot for mascot, city in nba_teams.items()}
-        print(teams_nba)
+    # Dictionary Comprehensions
+    nba_teams = {'jazz': 'SLC', 'warriors': 'OAKLAND', 'clippers': 'LA'}
+    print(nba_teams)
+    teams_nba = {city: mascot for mascot, city in nba_teams.items()}
+    print(teams_nba)
 
-        primes = [x for x in range(101) if is_prime(x)] # instead of 101, we could use a larger number like 10001
-        print(len(primes), primes)
+    primes = [x for x in range(101) if is_prime(x)]  # instead of 101, we could use a larger number like 10001
+    print(len(primes), primes)
 
 
 
