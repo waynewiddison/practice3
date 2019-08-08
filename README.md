@@ -20,4 +20,16 @@ Updated Wed 07 Aug 2019
 - Learned about Tubles and unpacking tuples
 - Learned more about strings
 
+## Day 3 Summary (for 07 Aug 2019)
+- Completed our discussion on collections
+    - List
+    - Dictionaries
+    - Strings
+    - Range
+    - Sets
+- Basics of exceptions: **try, except, throw**
+- Comprehensions
+
+
+
 
