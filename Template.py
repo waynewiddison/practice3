@@ -10,12 +10,7 @@ def main():
     """
     pass
 
-    print()
-    print("  Wayne says this code is working great")
 
- # just for fun
-    my_number = int(input("Input a number? "))
-    print(my_number)
 
 if __name__ == '__main__':
     main()
